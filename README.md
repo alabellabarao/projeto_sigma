@@ -22,7 +22,7 @@
       margin-left: 30px;
     }
     ul.sublist {
-      margin-left: 30px; /* Adiciona uma margem à esquerda para a sublista */
+      margin-left: 30px; 
     }
 </style>
 </head>
@@ -43,7 +43,7 @@
     <ul class="sublist">      
       <li>Ir para o google e digitar "install node"</li>
       <li>Escolher o link node.org e baixar o Node conforme o sistema operacional que está utilizando</li>
-      <li>Link para baixar: https://nodejs.org/en/download/package-manager</li>
+      <li>Link para baixar: <a href="https://nodejs.org/en/download/package-manager">https://nodejs.org/en/download/package-manager</a></li>
       <li>Comando a seguir mostra se o Node foi instalado e a versão, rodar o comando: "node -v"</li>
       <li>Ir no GitBash (executar como administrador)</li>
       <li>Para iniciar o gerenciador de pacote do Node, digite o comando: npm init -y</li>
@@ -56,7 +56,8 @@
     <ul class="sublist">
         <li>Ir no google e digitar "install Vs Code"</li>
         <li>Escolher o link referente a Download Visual Sudio Code e baixar o Vs Code conforme o sistema operacional que está utilizando</li>
-        <li>Link para baixar: https://code.visualstudio.com/download</li>
+        <li>Link para baixar: <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></li>
+      <li>Instalar o Vs Code</li>
         <li>Instalar o Vs Code</li>
         <li>Para abrir o Vs Code, basta ir no cmd e digitar "code ."</li>
     </ul>
@@ -69,7 +70,7 @@
     </ul>
     <h4 class="subtitle">5 - Automação referente ao Projeto Sigma. Escrever código fonte para automação de teste de “recuperação de senha”. Sendo que o teste deve conter a seguinte estrutura:</h4>
     <ul class="sublist">
-      <li>Acessar a aplicação: https://homolog-sigma.decea.mil.br/sigma-ui/login</li>
+       <li>Acessar a aplicação: <a href="https://homolog-sigma.decea.mil.br/sigma-ui/login">https://homolog-sigma.decea.mil.br/sigma-ui/login</a></li>
       <li>Selecionar a opção de “Esqueceu sua Senha?”</li>
       <li>Selecionar o Radio Button: CPF</li>
       <li>Preencher o campo com: 320.100.318-22</li>
@@ -87,7 +88,7 @@
     </ul>
 <h4 class="subtitle">7 - A validação desse teste automatizado do Projeto Sigma consiste nos seguintes passos:</h4>
     <ul class="sublist">
-      <li>Abre a tela do site https://homolog-sigma.decea.mil.br/sigma-ui/login, que está definido no arquivo cypress.config.js</li>
+       <li>Abre a tela do site <a href="https://homolog-sigma.decea.mil.br/sigma-ui/login">https://homolog-sigma.decea.mil.br/sigma-ui/login</a> que está definido no arquivo cypress.config.js</li>
       <li>Clicar no link "Esqueceu a senha".</li>
       <li>Abre a tela "Esqueci minha senha" com duas opções de radiobutton: Usuário e CPF.</li>
       <li>Selecionar o radiobutton "CPF" (.check({force: true})).</li>
