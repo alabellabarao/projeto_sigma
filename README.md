@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projeto Sigma</title>
   <style>
-    
     .center-container {
       display: flex;
       flex-direction: column;
@@ -13,29 +12,19 @@
       justify-content: center;
       text-align: center;
     }
-
     h4.subtitle {
       color: #888;
       text-align: left;
       margin-left: 20px;
     }
-
     ul.list {
       text-align: left;
       margin-left: 30px;
     }
-
     ul.sublist {
       margin-left: 30px; /* Adiciona uma margem à esquerda para a sublista */
     }
-
-    .sublist::before {
-        content: '';
-        display: block;
-        height: 1em; /* Ajuste a altura conforme necessário */
-    }
-  
-  </style>
+</style>
 </head>
 <body>
   <div class="center-container">
