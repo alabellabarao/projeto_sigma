@@ -1,31 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto Sigma</title>
-  <style>
-    .center-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    h4.subtitle {
-      color: #888;
-      text-align: left;
-      margin-left: 20px;
-    }
-    ul.list {
-      text-align: left;
-      margin-left: 30px;
-    }
-    ul.sublist {
-      margin-left: 30px; 
-    }
-</style>
-</head>
 <body>
   <div class="center-container">
     <h1 class="title">Automação do Projeto Sigma</h1>
